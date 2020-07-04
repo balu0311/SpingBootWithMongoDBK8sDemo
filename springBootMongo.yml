@@ -12,7 +12,8 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: balu0311/spring-boot-mongo:latest
+      - image: balu0311/spring-boot-mongo
+        imagePullPolicy: Always
         name: springboot
         ports:
         - name: springboot
