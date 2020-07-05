@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   labels:
@@ -38,17 +38,14 @@ spec:
     name: springboot
 ---
 # Mongo host path rc
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: ReplicationController
 metadata:
   labels:
     name: mongo
   name: mongo-controller
 spec:
   replicas: 1
-  selector:
-   matchLabels:
-     type: mongo 
   template:
     metadata:
       labels:
