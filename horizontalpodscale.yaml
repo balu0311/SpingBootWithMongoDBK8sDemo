@@ -18,6 +18,6 @@ spec:
     apiVersion: v1
     kind: ReplicationController
     name: spring-controller
-  targetCPUUtilizationPercentage: 70
+  targetCPUUtilizationPercentage: 40
 
                            
