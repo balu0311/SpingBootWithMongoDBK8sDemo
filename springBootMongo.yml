@@ -19,7 +19,7 @@ spec:
          requests:
            cpu: "50m"
          limits:
-           cpu: "100m"
+           cpu: "70m"
         ports:
         - name: springboot
           containerPort: 8080      
