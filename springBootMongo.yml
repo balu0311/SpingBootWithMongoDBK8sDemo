@@ -17,7 +17,7 @@ spec:
         name: springboot
         resources:
          requests:
-           cpu: "100m"
+           cpu: "50m"
          limits:
            cpu: "100m"
         ports:
