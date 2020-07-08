@@ -19,7 +19,5 @@ spec:
     kind: ReplicationController
     name: spring-controller
   targetCPUUtilizationPercentage: 20
-status:
-  currentReplicas: 3
-  desiredReplicas: 0
+
                            
